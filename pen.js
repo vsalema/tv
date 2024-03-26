@@ -16,31 +16,17 @@ var videoPlayer = window.videoPlayer || {};
     textTracks: [{
 
       label: 'tvi' }],
-
-
-    poster: 'https://upload.wikimedia.org/wikipedia/commons/2/24/Log%C3%B3tipo_TVI.png' },
-  {
-
-
-
-
-    sources: [{
+poster: 'https://upload.wikimedia.org/wikipedia/commons/2/24/Log%C3%B3tipo_TVI.png' 
+  },{
+sources: [{
       src: 'https://video-auth5.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/chunks.m3u8?sessionid=95472755',
       type: 'application/x-mpegURL' }],
 
     textTracks: [{
       label: 'tvi reality' }],
-
-
-    poster: 'https://www.atelevisao.com/wp-content/uploads/2016/02/TVI_reality2.jpg' },
-  {
-
-
-
-
-
-
-    sources: [{
+poster: 'https://www.atelevisao.com/wp-content/uploads/2016/02/TVI_reality2.jpg' 
+  },{
+sources: [{
       src: 'https://video-auth2.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/chunks.m3u8?sessionid=739049012',
       type: 'application/x-mpegURL' }],
 
@@ -58,11 +44,9 @@ var videoPlayer = window.videoPlayer || {};
       label: 'tvi africa' }],
 
 
-    poster: '' },
-  {
-
-
-    sources: [{
+    poster: '' 
+  },{
+sources: [{
       src: 'https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8',
       type: 'application/x-mpegURL' }],
 
@@ -70,9 +54,19 @@ var videoPlayer = window.videoPlayer || {};
       label: 'sic' }],
 
 
-    poster: '' },
-  {
-    sources: [{
+    poster: '' 
+  },{
+sources: [{
+src: 'https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/cnnpt.m3u8',
+type: 'application/x-mpegURL'
+}],
+textTracks: [{
+label: 'cnn'
+}
+],
+poster: 'https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/655f44cbd34e65afa2f7e249/1024'
+},{
+sources: [{
       src: 'https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index_4.m3u8',
       type: 'application/x-mpegURL' }],
 
