@@ -32,10 +32,8 @@ sources: [{
 
     textTracks: [{
       label: 'tvi ficcao' }],
-
-
-    poster: 'https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/616562540cf279ce41ddfe4f/' },
-  {
+poster: 'https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/616562540cf279ce41ddfe4f/' 
+  },{
     
 sources: [{
       src: 'https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8',
@@ -43,9 +41,7 @@ sources: [{
 
     textTracks: [{
       label: 'sic' }],
-
-
-    poster: 'https://www.atelevisao.com/wp-content/uploads/2024/01/sic-logotipo-1.jpg' 
+ poster: 'https://www.atelevisao.com/wp-content/uploads/2024/01/sic-logotipo-1.jpg' 
   },{
 sources: [{
 src: 'https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/cnnpt.m3u8',
@@ -53,20 +49,15 @@ type: 'application/x-mpegURL'
 }],
 textTracks: [{
 label: 'cnn'
-}
-],
+}],
 poster: 'https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/655f44cbd34e65afa2f7e249/1024'
 },{
 sources: [{
       src: 'https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index_4.m3u8',
       type: 'application/x-mpegURL' }],
-
-    textTracks: [{
-
-      label: 'sic noticias' }],
-
-
-    poster: 'https://cdn.bndlyr.com/nb1nraet4m/_assets/sic-internacional-noticias.jpg' }];
+textTracks: [{
+label: 'sic noticias' }],
+poster: 'https://cdn.bndlyr.com/nb1nraet4m/_assets/sic-internacional-noticias.jpg' }];
 
   // [{ ... }, ... ]
   var rate = 1; // playback rate
