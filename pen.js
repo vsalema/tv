@@ -34,18 +34,9 @@ sources: [{
       label: 'tvi ficcao' }],
 
 
-    poster: '' },
+    poster: 'https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/616562540cf279ce41ddfe4f/' },
   {
-    sources: [{
-      src: 'https://video-auth4.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/chunks.m3u8?sessionid=439434009',
-      type: 'application/x-mpegURL' }],
-
-    textTracks: [{
-      label: 'tvi africa' }],
-
-
-    poster: '' 
-  },{
+    
 sources: [{
       src: 'https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8',
       type: 'application/x-mpegURL' }],
@@ -54,7 +45,7 @@ sources: [{
       label: 'sic' }],
 
 
-    poster: '' 
+    poster: 'https://www.atelevisao.com/wp-content/uploads/2024/01/sic-logotipo-1.jpg' 
   },{
 sources: [{
 src: 'https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/cnnpt.m3u8',
@@ -75,7 +66,7 @@ sources: [{
       label: 'sic noticias' }],
 
 
-    poster: 'imagen.jpg' }];
+    poster: 'https://cdn.bndlyr.com/nb1nraet4m/_assets/sic-internacional-noticias.jpg' }];
 
   // [{ ... }, ... ]
   var rate = 1; // playback rate
